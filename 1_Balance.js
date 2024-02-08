@@ -18,7 +18,7 @@ function Balance() {
   const auth = useContext(AuthContext);
   const navigate = useNavigate();
 
-  //Card options
+  //Card option info
   let cardOptions = { cardName: "Balance" };
 
   const onClickCellHandler = (cell) => {
